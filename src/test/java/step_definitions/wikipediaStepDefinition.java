@@ -34,7 +34,7 @@ public class wikipediaStepDefinition {
 
         String expectedtitle ="Fungus-Wikipedia";
         String actualTitle = Driver.getDriver().getTitle();
-        System.out.println(actualTitle);
+        System.out.println("actualTitle = " + actualTitle);
         Assert.assertEquals("Title did not match",actualTitle.contains("Fungus"));
 
 
